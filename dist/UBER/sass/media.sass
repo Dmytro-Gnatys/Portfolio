@@ -1,0 +1,259 @@
+@media (max-width: 1200px)
+    .menu
+        &_item
+            padding-right: 40px
+        &_link
+            font-size: 13px
+    .promo
+        &_header
+            font-size: 50px
+        &_subheader
+            font-size: 30px
+    .advantage
+        .container
+            max-width: 900px
+        &_title
+            font-size: 32px
+            line-height: 38px
+    .mobile
+        .container
+            max-width: 950px
+        &_item
+            width: 300px
+    .footer_market
+        &_icon
+            width: 210px
+@media (max-width: 991px)
+    .menu
+        &_item
+            padding-right: 20px
+        &_link
+            font-size: 10px
+    .subheader
+        &_logo
+            img
+                width: 100%
+        &_official
+            font-size: 10px
+        &_btn
+            margin-top: 22px
+            width: 100%
+            height: 40px
+    .promo
+        &_header
+            font-size: 40px
+        &_subheader
+            font-size: 26px
+    .advantage
+        &_item
+            flex-direction: column
+            align-items: center
+        &_header
+            margin-top: 15px
+    .mobile
+        margin-bottom: 0
+        &_title
+            font-size: 30px
+        &_order
+            font-size: 14px
+        &_item
+            width: 275px
+            height: 255px
+            &_subtitle
+                font-size: 19px
+    .uberx
+        img
+            width: 100%
+    .footer_social
+        position: inherit
+        margin-top: 10px
+        display: flex
+        justify-content: center
+        &_icon
+            transform: none
+    .footer_market
+        position: inherit
+        display: flex
+        justify-content: center
+        margin-top: 10px
+        transform: none
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0,0,0, .8)
+        transition: 0.6s all
+        z-index: 1
+        &_active
+            left: 0
+        &_item
+            padding: 0
+            border: 0
+            margin: 10px 0
+        &_link
+            font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateX(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateX(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: flex
+        justify-content: center
+        margin: 10px 20px
+    .subheader
+        &_phone
+            color: #FFFFFF
+            font-weight: 400
+            font-size: 17px
+            padding-left: 0
+            line-height: 20px
+        &_btn
+            margin-top: 0
+            width: 160px
+            height: 36px
+            font-size: 12px
+        button
+            margin-left: 50px
+    .promo
+        &_header
+            font-size: 32px
+            line-height: 20px
+        &_subheader
+            font-size: 23px
+            line-height: 30px
+    .uberx
+        height: 650px
+        padding: 45px 0 0 0
+        &_head
+            font-size: 32px
+            line-height: 38px
+    .advantage
+        &_title
+            font-size: 26px
+            line-height: 34px
+@media (max-width: 575px)
+    .subheader
+        height: 67px
+        &_official
+            display: none
+        &_phone
+            font-size: 12px
+            margin: 0 20px
+        &_logo
+            margin-top: 20px
+        &_btn
+            width: 132px
+            height: 32px
+            font-size: 10px
+            margin-top: 5px
+        button
+            margin-left: 0
+    .menu
+        width: 80%
+        font-size: 12px
+        &_link
+            display: block
+    .promo
+        min-height: 400px
+        padding: 70px 0 35px 0
+        &_header
+            font-size: 23px
+            line-height: 25px
+            margin-top: 25px
+        &_subheader
+            font-size: 20px
+            line-height: 26px
+        &_descr
+            display: none
+        &_btn
+            width: 200px
+            height: 55px
+            font-size: 15px
+    .advantage
+        &_title
+            font-size: 16px
+            line-height: 30px
+            margin-top: 15px
+    .mobile
+        padding-top: 10px
+        &_item
+            width: 250px
+            height: 235px
+        &_title
+            font-size: 18px
+            line-height: 30px
+    .uberx
+        height: 550px
+        &_head
+            font-size: 18px
+            line-height: 30px
+        &_order
+            font-size: 14px
+    .require
+        padding: 15px 0 15px 0
+        &_head
+            font-size: 22px
+            line-height: 30px
+        &_list
+            li
+                font-size: 14px
+        &_title
+            font-size: 18px
+        &_descr
+            font-size: 14px
+        &_block
+            margin: 12px 0
+    .city
+        height: 450px
+        &_title
+            font-size: 30px
+            line-height: 30px
+        &_descr
+            width: 300px
+        &_look
+            margin: 200px auto
+    .footer
+        &_line
+            width: 120px
+            height: 3px
+        &_item
+            padding-right: 15px
+        &_link
+            font-size: 10px
+    .footer_submenu
+        width: 270px
+        &_item
+            padding-right: 10px
+        &_link
+            font-size: 6px
+    .footer_language
+        font-size: 9px

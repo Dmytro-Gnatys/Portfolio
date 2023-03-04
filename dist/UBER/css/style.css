@@ -1,0 +1,198 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    height: 50px;
+    background: #212121;
+    position: sticky;
+    top: 5px;
+}
+
+header {
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 70px;
+    margin: 0;
+    list-style: none;
+}
+
+.menu .menu_link {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted #000;
+    padding-right: 40px;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    height: 87px;
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    opacity: 0.5;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.subheader .subheader_coll {
+    display: block;
+    margin-top: 18px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.subheader .subheader_phone {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 25px;
+    padding-left: 0;
+    line-height: 30px;
+}
+
+.subheader .subheader_btn {
+    margin-top: 20px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    border-radius: 8px;
+}
+
+.promo {
+    padding: 80px 0 100px 0;
+    min-height: 800px;
+    background: url(../img/background_header.jpg) center center/cover no-repeat;
+}
+
+.promo .promo_header {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.promo .promo_subheader {
+    display: block;
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.promo .promo_descr {
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 120px auto 0 auto;
+    width: 260px;
+    height: 65px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    border-radius: 8px;
+}
+
+.advantage .container {
+    width: 1064px;
+    height: 767px;
+}
+
+.advantage .advantage_btn {
+    margin: 20px auto;
+    padding-top: 4px;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.advantage .advantage_reason {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.advantage .advantage_item {
+    display: flex;
+    margin-top: 20px;
+}
+
+.advantage .advantage_cash {
+    width: 95px;
+    height: 95px;
+    margin-top: 30px;
+}
+
+
+h3 {
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    align-items: center;
+    color: #1EACC7;
+}
+
+.advantage .advantage_descr {
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    align-items: center;
+}
